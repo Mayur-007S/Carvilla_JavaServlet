@@ -1,0 +1,231 @@
+@charset "UTF-8";
+body {
+    background-color: white;
+    transition: background-color 0.5s ease;
+}
+
+.pbox {
+    display: grid;
+    grid-template-areas: "side article right-side"
+        "footer footer footer";
+    margin-top: 90px;
+    height: 550px;
+    /* background: linear-gradient(50deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); */
+   	background-image: url('https://cdn.dribbble.com/userupload/2987112/file/original-da8b4a28c93bcec68df1e3a763dce1d1.png?resize=1024x768&vertical=center');
+}
+
+.item-1 {
+    grid-area: side;
+    background-color:rgb(255 255 255);
+    height: 550px;
+    width: 20rem;
+    /* box-shadow: 4px 7px 20px 0px #6429d36b; */
+}
+
+.UserSection {
+    height: 6rem;
+background-color: #0071d8;
+    /* box-shadow: 4px 7px 20px 0px powderblue; */
+}
+
+
+.pimage {
+    width: 70px;
+    position: relative;
+    height: 70px;
+    border-radius: 50%;
+    left: 12rem;
+    background-image: url('../assets/images/Client/c1.png');
+    object-fit: contain;
+    border: 2px solid white;
+    top: 3.7rem;
+}
+
+.pname {
+    border: none;
+    background-color: transparent;
+   color: rgb(255, 255, 255);
+    top: -3rem;
+    left: 1.5rem;
+    position: relative;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.pemail {
+    border: none;
+    /* background-color: transparent; */
+    color: rgb(219, 219, 219);
+    top: -3rem;
+    left: 1.5rem;
+    position: relative;
+    font-size: 13px;
+    font-family: system-ui;
+}
+
+.elemets {
+    position: absolute;
+    color: black;
+    top: 17rem;
+    left: 3rem;
+}
+
+.elemets>li {
+    padding: 20px;
+    padding-left: 3rem;
+    list-style-type: none;
+}
+
+.img1 {
+    width: 18px;
+    position: absolute;
+    top: 20px;
+}
+
+.img2 {
+    width: 18px;
+    position: absolute;
+    margin-top: 1.3rem;
+}
+
+.img3 {
+    width: 18px;
+    position: absolute;
+    top: 9rem;
+}
+
+.img4 {
+    width: 18px;
+    position: absolute;
+    margin-top: 1.2rem;
+}
+
+.img5 {
+    width: 18px;
+    position: absolute;
+    left: 3rem;
+}
+
+li>#itext {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+
+.logout {
+    margin-top: 24rem;
+    width: 100%;
+
+}
+
+hr {
+    margin: 1rem;
+}
+
+.logoutButton {
+    padding-left: 6rem;
+    font-family: sans-serif;
+    list-style-type: none;
+    font-size: 18px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: black;
+}
+
+.information>div {
+    display: grid;
+    grid-template-areas: "side side";
+    width: 100%;
+    height: calc(100% - 90px);
+    position: absolute;
+    margin-left: -24rem;
+    padding-top: 2.5rem;
+}
+
+#b-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.orderB {
+    left: 12rem;
+    top: 2rem;
+}
+
+.secureBox {
+    top: 2rem;
+    right: 6rem;
+}
+
+
+.yourAddr {
+    left: 12rem;
+    /* top: 2rem; */
+}
+
+.ContactUs {
+    /* top: 2rem; */
+    right: 6rem;
+}
+
+.b1 {
+    width: 22rem;
+    height: 12rem;
+    position: relative;
+    background: rgb(255 255 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+
+}
+
+.b1>span {
+    position: relative;
+    left: 1.5rem;
+    top: -20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.l1 {
+    position: relative;
+    width: 60px;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+}
+
+
+.b1>.btext {
+    width: 9rem;
+    position: absolute;
+    left: 5.5rem;
+    font-size: 12px;
+    margin-top: -10px;
+    color: #626767;
+}
+
+.b1-text {
+    padding-top: 2.5rem;
+}
+
+/* 
+.orderBox {  
+    animation-name: ani-float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+    
+}
+ 
+@keyframes ani-float {
+    0% { transform: translate(0,  0px); }
+    50% { transform: translate(0, 15px); }
+    100% { transform: translate(0, -0px); }    
+} */
